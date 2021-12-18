@@ -1,8 +1,7 @@
 # TrOCR
 
 ## Introduction
-TrOCR is an end-to-end text recognition approach with pre-trained image Transformer and text Transformer models, which leverages the Transformer architecture for both image understanding and wordpiece-level text generation. 
-
+This repository is created for test TrOCR-BASE model by using IAM dataset, CER(Character Error Rate).
 
  
 | Model                          |  #Param   | Test set | Score          |
@@ -11,7 +10,7 @@ TrOCR is an end-to-end text recognition approach with pre-trained image Transfor
 
 
 
-## Fine-tuning and evaluation
+## Used Model and test dataset
 |   Model  | Download |
 | -------- | -------- |
 | TrOCR-Base-IAM     | [trocr-base-handwritten.pt](https://layoutlm.blob.core.windows.net/trocr/model_zoo/fairseq/trocr-base-handwritten.pt) |
@@ -23,7 +22,6 @@ TrOCR is an end-to-end text recognition approach with pre-trained image Transfor
 
 
 ## Citation
-If you want to cite TrOCR in your research, please cite the following paper:
 ``` latex
 @misc{li2021trocr,
       title={TrOCR: Transformer-based Optical Character Recognition with Pre-trained Models}, 

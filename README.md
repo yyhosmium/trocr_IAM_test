@@ -8,7 +8,11 @@ This repository is created for test TrOCR-BASE model by using IAM dataset, CER(C
 |--------------------------------|-----------|----------|----------------|
 | TrOCR-Base                     | 334M       | IAM     | 3.42 (Cased CER)     |
 
-
+## Test Environment
+OS : Ubuntu 20.04.3 LTS
+GPU : RTX2080
+CPU : i7-8700K
+RAM : 16GB
 
 ## Used Model and test dataset
 |   Model  | Download |
